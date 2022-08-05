@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 8px;
+}
+
+.header-cotainer {
+  background-color: #7030cc;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 40px 150px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline;
+  margin-left: 35px;
+}
+
+.list-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.list-item.active {
+  border-bottom: 2px solid #a446ad;
+}
+
+.list-item.active a {
+  color: #2e9ce7;
+}
+
+.list-item:hover {
+  border-bottom: 2px solid #a446ad;
+}
+
+.list-item a:hover {
+  color: #2e9ce7;
+}
+
+.list-item .btn {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.list-item.btn {
+  background-color: #1bbcef;
+  padding: 8px 15px;
+}
+
+.list-item.btn:hover {
+  border: none;
+}
+
+.list-item.btn a:hover {
+  color: #ffffff;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  color: #ffffff;
+  margin-top: 70px;
+  font-size: 45px;
+  width: 50%;
+}
+
+.main-description {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 14px;
+  width: 50%;
+}
+
+.main-right img {
+  height: 450px;
+}
+
+.section-1-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.section-1-img {
+  height: 450px;
+}
+
+.section-1-header {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.section-1-feature{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.feature-header {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.feature-1 .feature-header i {
+    color: #f59f61;
+}
+
+.feature-2 .feature-header i {
+    color: #8fd259;
+}
+
+.feature-3 .feature-header i {
+    color: #409df2;
+}
+
+.feature-description {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.section-2-header {
+    font-size: 30px;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.card {
+    text-align: center;
+    padding-top: 30px;
+    width: 15%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.card-img {
+    padding: 30px 20px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-1 .card-img {
+    background-color: #faeaeb;
+}
+
+.card-2 .card-img {
+    background-color: #fbf0ee;
+}
+
+.card-3 .card-img {
+    background-color: #e9f4f6;
+}
+
+.card-4 .card-img {
+    background-color: #f2e7f5;
+}
+
+.card-img img {
+    height: 35px;
+}
+
+.card-body {
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.card-1 .card-body {
+    background-color: #6429b7;
+    border-radius: 20px;
+}
+
+.card-body h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 12px;
+    color: #0000000;
+}
+
+.card-1 .card-body h3, .card-1 .card-body p {
+    color: #ffffff;
+}
