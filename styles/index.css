@@ -30,6 +30,10 @@ body {
   justify-content: space-between;
 }
 
+.nav-menu-icon {
+  display: none;
+}
+
 .nav-list {
   list-style-type: none;
 }
@@ -112,111 +116,311 @@ body {
 }
 
 .section-1-header {
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    width: 80%;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  width: 80%;
 }
 
-.section-1-feature{
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 20px;
+.section-1-feature {
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .feature-header {
-    font-size: 18px;
-    margin-bottom: 12px;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .feature-1 .feature-header i {
-    color: #f59f61;
+  color: #f59f61;
 }
 
 .feature-2 .feature-header i {
-    color: #8fd259;
+  color: #8fd259;
 }
 
 .feature-3 .feature-header i {
-    color: #409df2;
+  color: #409df2;
 }
 
 .feature-description {
-    font-size: 12px;
-    margin-left: 20px;
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 .section-2-header {
-    font-size: 30px;
-    text-align: center;
-    width: 25%;
-    margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .card {
-    text-align: center;
-    padding-top: 30px;
-    width: 15%;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
+  text-align: center;
+  padding-top: 30px;
+  width: 15%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
 }
 
 .card-img {
-    padding: 30px 20px;
-    width: 30%;
-    margin: 0 auto;
-    border-radius: 50%;
+  padding: 30px 20px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .card-1 .card-img {
-    background-color: #faeaeb;
+  background-color: #faeaeb;
 }
 
 .card-2 .card-img {
-    background-color: #fbf0ee;
+  background-color: #fbf0ee;
 }
 
 .card-3 .card-img {
-    background-color: #e9f4f6;
+  background-color: #e9f4f6;
 }
 
 .card-4 .card-img {
-    background-color: #f2e7f5;
+  background-color: #f2e7f5;
 }
 
 .card-img img {
-    height: 35px;
+  height: 35px;
 }
 
 .card-body {
-    padding: 10px 25px;
-    margin-top: 30px;
+  padding: 10px 25px;
+  margin-top: 30px;
 }
 
 .card-1 .card-body {
-    background-color: #6429b7;
-    border-radius: 20px;
+  background-color: #6429b7;
+  border-radius: 20px;
 }
 
 .card-body h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 12px;
+  color: #000000;
+}
+
+.card-1 .card-body h3,
+.card-1 .card-body p {
+  color: #ffffff;
+}
+
+/* sm */
+@media only screen and (max-width: 640px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  body {
+    background-color: #e5e5e5;
+    margin: 5px 5px 0 5px;
+  }
+
+  .container {
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px;
+  }
+
+  .header-cotainer {
+    background-color: #7030cc;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px 20px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-menu-icon {
+    display: block;
+    color: #ffffff;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .main-heading {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 45px;
+    width: 100%;
+  }
+
+  .main-description {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .main-right img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .section-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .section-1-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-1-header {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-1-feature {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .feature-header {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .feature-1 .feature-header i {
+    color: #f59f61;
+  }
+
+  .feature-2 .feature-header i {
+    color: #8fd259;
+  }
+
+  .feature-3 .feature-header i {
+    color: #409df2;
+  }
+  .feature-description {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+  .section-2-container {
+    margin-top: 35px;
+  }
+
+  .section-2-header {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  .card {
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .card-img {
+    padding: 50px 20px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .card-1 .card-img {
+    background-color: #faeaeb;
+  }
+
+  .card-2 .card-img {
+    background-color: #fbf0ee;
+  }
+
+  .card-3 .card-img {
+    background-color: #e9f4f6;
+  }
+
+  .card-4 .card-img {
+    background-color: #f2e7f5;
+  }
+
+  .card-img img {
+    height: 35px;
+  }
+
+  .card-body {
+    padding: 10px 25px;
+    margin-top: 30px;
+  }
+
+  .card-1 .card-body {
+    background-color: #6429b7;
+    border-radius: 20px;
+  }
+
+  .card-body h3 {
     font-weight: 700;
     font-size: 16px;
     color: #000000;
     margin-bottom: 10px;
-}
+  }
 
-.card-body p {
+  .card-body p {
     font-size: 12px;
-    color: #0000000;
-}
+    color: #000000;
+  }
 
-.card-1 .card-body h3, .card-1 .card-body p {
+  .card-1 .card-body h3,
+  .card-1 .card-body p {
     color: #ffffff;
+  }
 }
